@@ -5,3 +5,5 @@ A Simple springboot Hystrix example explaining how Circuit Breaker Pattern Behav
 1. start the client-app project on port 9000
 
 2. start the circuit-breaker project on port 8080, it will give output from fallback method defined in the project
+
+3. Open the histrix Dashboard @ 8080/hytrix and provide the url http://localhost:8080/hystrix.stream inorder to stream the ping services in a graphical interface @ http://localhost:8080/hystrix
